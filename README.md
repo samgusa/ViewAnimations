@@ -24,7 +24,7 @@ credit: [Kavsoft](https://www.youtube.com/watch?v=jWvNdSetIXo&t=19s)
 
 credit: [https://github.com/Kushalbhavsar/Liquid-Menu-Buttons/tree/main](https://github.com/Kushalbhavsar/Liquid-Menu-Buttons/tree/main)
 
-# [LoginTest](https://github.com/samgusa/FunAnimations/tree/main/LoginTest)
+# [LoginTest](https://github.com/samgusa/ViewAnimations/tree/main/LoginTest)
 
 <img src="LoginTest/LoginTest.gif" alt="" width="100" height="200">
 
