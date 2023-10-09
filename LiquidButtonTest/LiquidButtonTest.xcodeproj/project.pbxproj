@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE6AC62629FAFBD00021E042 /* LiquidButtonTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6AC62529FAFBD00021E042 /* LiquidButtonTestApp.swift */; };
+		FE6AC62829FAFBD00021E042 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6AC62729FAFBD00021E042 /* ContentView.swift */; };
+		FE6AC62A29FAFBD10021E042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6AC62929FAFBD10021E042 /* Assets.xcassets */; };
+		FE6AC62D29FAFBD10021E042 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6AC62C29FAFBD10021E042 /* Preview Assets.xcassets */; };
+		FE6AC63729FAFBD10021E042 /* LiquidButtonTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6AC63629FAFBD10021E042 /* LiquidButtonTestTests.swift */; };
+		FE6AC64129FAFBD10021E042 /* LiquidButtonTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6AC64029FAFBD10021E042 /* LiquidButtonTestUITests.swift */; };
+		FE6AC64329FAFBD10021E042 /* LiquidButtonTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6AC64229FAFBD10021E042 /* LiquidButtonTestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE6AC63329FAFBD10021E042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE6AC61A29FAFBD00021E042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE6AC62129FAFBD00021E042;
+			remoteInfo = LiquidButtonTest;
+		};
+		FE6AC63D29FAFBD10021E042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE6AC61A29FAFBD00021E042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE6AC62129FAFBD00021E042;
+			remoteInfo = LiquidButtonTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE6AC62229FAFBD00021E042 /* LiquidButtonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidButtonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6AC62529FAFBD00021E042 /* LiquidButtonTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidButtonTestApp.swift; sourceTree = "<group>"; };
+		FE6AC62729FAFBD00021E042 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE6AC62929FAFBD10021E042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE6AC62C29FAFBD10021E042 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE6AC63229FAFBD10021E042 /* LiquidButtonTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiquidButtonTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6AC63629FAFBD10021E042 /* LiquidButtonTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidButtonTestTests.swift; sourceTree = "<group>"; };
+		FE6AC63C29FAFBD10021E042 /* LiquidButtonTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiquidButtonTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6AC64029FAFBD10021E042 /* LiquidButtonTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidButtonTestUITests.swift; sourceTree = "<group>"; };
+		FE6AC64229FAFBD10021E042 /* LiquidButtonTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidButtonTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE6AC61F29FAFBD00021E042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6AC62F29FAFBD10021E042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6AC63929FAFBD10021E042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE6AC61929FAFBD00021E042 = {
+			isa = PBXGroup;
+			children = (
+				FE6AC62429FAFBD00021E042 /* LiquidButtonTest */,
+				FE6AC63529FAFBD10021E042 /* LiquidButtonTestTests */,
+				FE6AC63F29FAFBD10021E042 /* LiquidButtonTestUITests */,
+				FE6AC62329FAFBD00021E042 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE6AC62329FAFBD00021E042 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE6AC62229FAFBD00021E042 /* LiquidButtonTest.app */,
+				FE6AC63229FAFBD10021E042 /* LiquidButtonTestTests.xctest */,
+				FE6AC63C29FAFBD10021E042 /* LiquidButtonTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE6AC62429FAFBD00021E042 /* LiquidButtonTest */ = {
+			isa = PBXGroup;
+			children = (
+				FE6AC62529FAFBD00021E042 /* LiquidButtonTestApp.swift */,
+				FE6AC62729FAFBD00021E042 /* ContentView.swift */,
+				FE6AC62929FAFBD10021E042 /* Assets.xcassets */,
+				FE6AC62B29FAFBD10021E042 /* Preview Content */,
+			);
+			path = LiquidButtonTest;
+			sourceTree = "<group>";
+		};
+		FE6AC62B29FAFBD10021E042 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE6AC62C29FAFBD10021E042 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE6AC63529FAFBD10021E042 /* LiquidButtonTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE6AC63629FAFBD10021E042 /* LiquidButtonTestTests.swift */,
+			);
+			path = LiquidButtonTestTests;
+			sourceTree = "<group>";
+		};
+		FE6AC63F29FAFBD10021E042 /* LiquidButtonTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE6AC64029FAFBD10021E042 /* LiquidButtonTestUITests.swift */,
+				FE6AC64229FAFBD10021E042 /* LiquidButtonTestUITestsLaunchTests.swift */,
+			);
+			path = LiquidButtonTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE6AC62129FAFBD00021E042 /* LiquidButtonTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6AC64629FAFBD10021E042 /* Build configuration list for PBXNativeTarget "LiquidButtonTest" */;
+			buildPhases = (
+				FE6AC61E29FAFBD00021E042 /* Sources */,
+				FE6AC61F29FAFBD00021E042 /* Frameworks */,
+				FE6AC62029FAFBD00021E042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiquidButtonTest;
+			productName = LiquidButtonTest;
+			productReference = FE6AC62229FAFBD00021E042 /* LiquidButtonTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE6AC63129FAFBD10021E042 /* LiquidButtonTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6AC64929FAFBD10021E042 /* Build configuration list for PBXNativeTarget "LiquidButtonTestTests" */;
+			buildPhases = (
+				FE6AC62E29FAFBD10021E042 /* Sources */,
+				FE6AC62F29FAFBD10021E042 /* Frameworks */,
+				FE6AC63029FAFBD10021E042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE6AC63429FAFBD10021E042 /* PBXTargetDependency */,
+			);
+			name = LiquidButtonTestTests;
+			productName = LiquidButtonTestTests;
+			productReference = FE6AC63229FAFBD10021E042 /* LiquidButtonTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE6AC63B29FAFBD10021E042 /* LiquidButtonTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6AC64C29FAFBD10021E042 /* Build configuration list for PBXNativeTarget "LiquidButtonTestUITests" */;
+			buildPhases = (
+				FE6AC63829FAFBD10021E042 /* Sources */,
+				FE6AC63929FAFBD10021E042 /* Frameworks */,
+				FE6AC63A29FAFBD10021E042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE6AC63E29FAFBD10021E042 /* PBXTargetDependency */,
+			);
+			name = LiquidButtonTestUITests;
+			productName = LiquidButtonTestUITests;
+			productReference = FE6AC63C29FAFBD10021E042 /* LiquidButtonTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE6AC61A29FAFBD00021E042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FE6AC62129FAFBD00021E042 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FE6AC63129FAFBD10021E042 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FE6AC62129FAFBD00021E042;
+					};
+					FE6AC63B29FAFBD10021E042 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FE6AC62129FAFBD00021E042;
+					};
+				};
+			};
+			buildConfigurationList = FE6AC61D29FAFBD00021E042 /* Build configuration list for PBXProject "LiquidButtonTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE6AC61929FAFBD00021E042;
+			productRefGroup = FE6AC62329FAFBD00021E042 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE6AC62129FAFBD00021E042 /* LiquidButtonTest */,
+				FE6AC63129FAFBD10021E042 /* LiquidButtonTestTests */,
+				FE6AC63B29FAFBD10021E042 /* LiquidButtonTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE6AC62029FAFBD00021E042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6AC62D29FAFBD10021E042 /* Preview Assets.xcassets in Resources */,
+				FE6AC62A29FAFBD10021E042 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6AC63029FAFBD10021E042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6AC63A29FAFBD10021E042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE6AC61E29FAFBD00021E042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6AC62829FAFBD00021E042 /* ContentView.swift in Sources */,
+				FE6AC62629FAFBD00021E042 /* LiquidButtonTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6AC62E29FAFBD10021E042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6AC63729FAFBD10021E042 /* LiquidButtonTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6AC63829FAFBD10021E042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6AC64329FAFBD10021E042 /* LiquidButtonTestUITestsLaunchTests.swift in Sources */,
+				FE6AC64129FAFBD10021E042 /* LiquidButtonTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE6AC63429FAFBD10021E042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE6AC62129FAFBD00021E042 /* LiquidButtonTest */;
+			targetProxy = FE6AC63329FAFBD10021E042 /* PBXContainerItemProxy */;
+		};
+		FE6AC63E29FAFBD10021E042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE6AC62129FAFBD00021E042 /* LiquidButtonTest */;
+			targetProxy = FE6AC63D29FAFBD10021E042 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE6AC64429FAFBD10021E042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE6AC64529FAFBD10021E042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE6AC64729FAFBD10021E042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiquidButtonTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 4LBT7283WA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sam.LiquidButtonTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE6AC64829FAFBD10021E042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiquidButtonTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 4LBT7283WA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sam.LiquidButtonTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE6AC64A29FAFBD10021E042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LBT7283WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sam.LiquidButtonTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiquidButtonTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiquidButtonTest";
+			};
+			name = Debug;
+		};
+		FE6AC64B29FAFBD10021E042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LBT7283WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sam.LiquidButtonTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiquidButtonTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiquidButtonTest";
+			};
+			name = Release;
+		};
+		FE6AC64D29FAFBD10021E042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LBT7283WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sam.LiquidButtonTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiquidButtonTest;
+			};
+			name = Debug;
+		};
+		FE6AC64E29FAFBD10021E042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LBT7283WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sam.LiquidButtonTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiquidButtonTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE6AC61D29FAFBD00021E042 /* Build configuration list for PBXProject "LiquidButtonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6AC64429FAFBD10021E042 /* Debug */,
+				FE6AC64529FAFBD10021E042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6AC64629FAFBD10021E042 /* Build configuration list for PBXNativeTarget "LiquidButtonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6AC64729FAFBD10021E042 /* Debug */,
+				FE6AC64829FAFBD10021E042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6AC64929FAFBD10021E042 /* Build configuration list for PBXNativeTarget "LiquidButtonTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6AC64A29FAFBD10021E042 /* Debug */,
+				FE6AC64B29FAFBD10021E042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6AC64C29FAFBD10021E042 /* Build configuration list for PBXNativeTarget "LiquidButtonTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6AC64D29FAFBD10021E042 /* Debug */,
+				FE6AC64E29FAFBD10021E042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE6AC61A29FAFBD00021E042 /* Project object */;
+}
