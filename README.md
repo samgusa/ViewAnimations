@@ -24,6 +24,12 @@ credit: [Kavsoft](https://www.youtube.com/watch?v=jWvNdSetIXo&t=19s)
 
 credit: [https://github.com/Kushalbhavsar/Liquid-Menu-Buttons/tree/main](https://github.com/Kushalbhavsar/Liquid-Menu-Buttons/tree/main)
 
+# [LoginTest](https://github.com/samgusa/FunAnimations/tree/main/LoginTest)
+
+<img src="LoginTest/LoginTest.gif" alt="" width="100" height="200">
+
+credit: [Kavsoft](https://www.youtube.com/watch?v=KPYN6sjWvlA)
+
 ## [ParallaxCarouselTest](https://github.com/samgusa/ViewAnimations/tree/main/ParallaxCarouselTest)
 
 <img src="ParallaxCarouselTest/parallaxCarouselTest.gif" alt="" width="100" height="200">
