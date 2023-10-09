@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE66C4FC2A25536900455998 /* GooeyTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66C4FB2A25536900455998 /* GooeyTestApp.swift */; };
+		FE66C4FE2A25536900455998 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66C4FD2A25536900455998 /* ContentView.swift */; };
+		FE66C5002A25536A00455998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE66C4FF2A25536A00455998 /* Assets.xcassets */; };
+		FE66C5032A25536A00455998 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE66C5022A25536A00455998 /* Preview Assets.xcassets */; };
+		FE66C50D2A25536A00455998 /* GooeyTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66C50C2A25536A00455998 /* GooeyTestTests.swift */; };
+		FE66C5172A25536A00455998 /* GooeyTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66C5162A25536A00455998 /* GooeyTestUITests.swift */; };
+		FE66C5192A25536A00455998 /* GooeyTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66C5182A25536A00455998 /* GooeyTestUITestsLaunchTests.swift */; };
+		FE66C5272A2554CB00455998 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66C5262A2554CB00455998 /* Home.swift */; };
+		FE66C5292A2655F900455998 /* ShapeMorphingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66C5282A2655F900455998 /* ShapeMorphingView.swift */; };
+		FE66C52C2A2662B700455998 /* AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66C52B2A2662B700455998 /* AnimationHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE66C5092A25536A00455998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE66C4F02A25536900455998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE66C4F72A25536900455998;
+			remoteInfo = GooeyTest;
+		};
+		FE66C5132A25536A00455998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE66C4F02A25536900455998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE66C4F72A25536900455998;
+			remoteInfo = GooeyTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE66C4F82A25536900455998 /* GooeyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooeyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE66C4FB2A25536900455998 /* GooeyTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooeyTestApp.swift; sourceTree = "<group>"; };
+		FE66C4FD2A25536900455998 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE66C4FF2A25536A00455998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE66C5022A25536A00455998 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE66C5082A25536A00455998 /* GooeyTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooeyTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE66C50C2A25536A00455998 /* GooeyTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooeyTestTests.swift; sourceTree = "<group>"; };
+		FE66C5122A25536A00455998 /* GooeyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooeyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE66C5162A25536A00455998 /* GooeyTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooeyTestUITests.swift; sourceTree = "<group>"; };
+		FE66C5182A25536A00455998 /* GooeyTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooeyTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE66C5262A2554CB00455998 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FE66C5282A2655F900455998 /* ShapeMorphingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeMorphingView.swift; sourceTree = "<group>"; };
+		FE66C52B2A2662B700455998 /* AnimationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE66C4F52A25536900455998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE66C5052A25536A00455998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE66C50F2A25536A00455998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE66C4EF2A25536900455998 = {
+			isa = PBXGroup;
+			children = (
+				FE66C4FA2A25536900455998 /* GooeyTest */,
+				FE66C50B2A25536A00455998 /* GooeyTestTests */,
+				FE66C5152A25536A00455998 /* GooeyTestUITests */,
+				FE66C4F92A25536900455998 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE66C4F92A25536900455998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE66C4F82A25536900455998 /* GooeyTest.app */,
+				FE66C5082A25536A00455998 /* GooeyTestTests.xctest */,
+				FE66C5122A25536A00455998 /* GooeyTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE66C4FA2A25536900455998 /* GooeyTest */ = {
+			isa = PBXGroup;
+			children = (
+				FE66C52A2A26629E00455998 /* Helper */,
+				FE66C5252A2554BF00455998 /* View */,
+				FE66C4FB2A25536900455998 /* GooeyTestApp.swift */,
+				FE66C4FD2A25536900455998 /* ContentView.swift */,
+				FE66C4FF2A25536A00455998 /* Assets.xcassets */,
+				FE66C5012A25536A00455998 /* Preview Content */,
+			);
+			path = GooeyTest;
+			sourceTree = "<group>";
+		};
+		FE66C5012A25536A00455998 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE66C5022A25536A00455998 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE66C50B2A25536A00455998 /* GooeyTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE66C50C2A25536A00455998 /* GooeyTestTests.swift */,
+			);
+			path = GooeyTestTests;
+			sourceTree = "<group>";
+		};
+		FE66C5152A25536A00455998 /* GooeyTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE66C5162A25536A00455998 /* GooeyTestUITests.swift */,
+				FE66C5182A25536A00455998 /* GooeyTestUITestsLaunchTests.swift */,
+			);
+			path = GooeyTestUITests;
+			sourceTree = "<group>";
+		};
+		FE66C5252A2554BF00455998 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE66C5262A2554CB00455998 /* Home.swift */,
+				FE66C5282A2655F900455998 /* ShapeMorphingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE66C52A2A26629E00455998 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FE66C52B2A2662B700455998 /* AnimationHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE66C4F72A25536900455998 /* GooeyTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE66C51C2A25536A00455998 /* Build configuration list for PBXNativeTarget "GooeyTest" */;
+			buildPhases = (
+				FE66C4F42A25536900455998 /* Sources */,
+				FE66C4F52A25536900455998 /* Frameworks */,
+				FE66C4F62A25536900455998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooeyTest;
+			productName = GooeyTest;
+			productReference = FE66C4F82A25536900455998 /* GooeyTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE66C5072A25536A00455998 /* GooeyTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE66C51F2A25536A00455998 /* Build configuration list for PBXNativeTarget "GooeyTestTests" */;
+			buildPhases = (
+				FE66C5042A25536A00455998 /* Sources */,
+				FE66C5052A25536A00455998 /* Frameworks */,
+				FE66C5062A25536A00455998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE66C50A2A25536A00455998 /* PBXTargetDependency */,
+			);
+			name = GooeyTestTests;
+			productName = GooeyTestTests;
+			productReference = FE66C5082A25536A00455998 /* GooeyTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE66C5112A25536A00455998 /* GooeyTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE66C5222A25536A00455998 /* Build configuration list for PBXNativeTarget "GooeyTestUITests" */;
+			buildPhases = (
+				FE66C50E2A25536A00455998 /* Sources */,
+				FE66C50F2A25536A00455998 /* Frameworks */,
+				FE66C5102A25536A00455998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE66C5142A25536A00455998 /* PBXTargetDependency */,
+			);
+			name = GooeyTestUITests;
+			productName = GooeyTestUITests;
+			productReference = FE66C5122A25536A00455998 /* GooeyTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE66C4F02A25536900455998 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FE66C4F72A25536900455998 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FE66C5072A25536A00455998 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FE66C4F72A25536900455998;
+					};
+					FE66C5112A25536A00455998 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FE66C4F72A25536900455998;
+					};
+				};
+			};
+			buildConfigurationList = FE66C4F32A25536900455998 /* Build configuration list for PBXProject "GooeyTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE66C4EF2A25536900455998;
+			productRefGroup = FE66C4F92A25536900455998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE66C4F72A25536900455998 /* GooeyTest */,
+				FE66C5072A25536A00455998 /* GooeyTestTests */,
+				FE66C5112A25536A00455998 /* GooeyTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE66C4F62A25536900455998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE66C5032A25536A00455998 /* Preview Assets.xcassets in Resources */,
+				FE66C5002A25536A00455998 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE66C5062A25536A00455998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE66C5102A25536A00455998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE66C4F42A25536900455998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE66C4FE2A25536900455998 /* ContentView.swift in Sources */,
+				FE66C5272A2554CB00455998 /* Home.swift in Sources */,
+				FE66C52C2A2662B700455998 /* AnimationHelper.swift in Sources */,
+				FE66C5292A2655F900455998 /* ShapeMorphingView.swift in Sources */,
+				FE66C4FC2A25536900455998 /* GooeyTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE66C5042A25536A00455998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE66C50D2A25536A00455998 /* GooeyTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE66C50E2A25536A00455998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE66C5192A25536A00455998 /* GooeyTestUITestsLaunchTests.swift in Sources */,
+				FE66C5172A25536A00455998 /* GooeyTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE66C50A2A25536A00455998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE66C4F72A25536900455998 /* GooeyTest */;
+			targetProxy = FE66C5092A25536A00455998 /* PBXContainerItemProxy */;
+		};
+		FE66C5142A25536A00455998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE66C4F72A25536900455998 /* GooeyTest */;
+			targetProxy = FE66C5132A25536A00455998 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE66C51A2A25536A00455998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE66C51B2A25536A00455998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE66C51D2A25536A00455998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GooeyTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 4LBT7283WA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sam.GooeyTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE66C51E2A25536A00455998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GooeyTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 4LBT7283WA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sam.GooeyTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE66C5202A25536A00455998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LBT7283WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sam.GooeyTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooeyTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GooeyTest";
+			};
+			name = Debug;
+		};
+		FE66C5212A25536A00455998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LBT7283WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sam.GooeyTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooeyTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GooeyTest";
+			};
+			name = Release;
+		};
+		FE66C5232A25536A00455998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LBT7283WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sam.GooeyTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GooeyTest;
+			};
+			name = Debug;
+		};
+		FE66C5242A25536A00455998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LBT7283WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sam.GooeyTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GooeyTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE66C4F32A25536900455998 /* Build configuration list for PBXProject "GooeyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE66C51A2A25536A00455998 /* Debug */,
+				FE66C51B2A25536A00455998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE66C51C2A25536A00455998 /* Build configuration list for PBXNativeTarget "GooeyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE66C51D2A25536A00455998 /* Debug */,
+				FE66C51E2A25536A00455998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE66C51F2A25536A00455998 /* Build configuration list for PBXNativeTarget "GooeyTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE66C5202A25536A00455998 /* Debug */,
+				FE66C5212A25536A00455998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE66C5222A25536A00455998 /* Build configuration list for PBXNativeTarget "GooeyTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE66C5232A25536A00455998 /* Debug */,
+				FE66C5242A25536A00455998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE66C4F02A25536900455998 /* Project object */;
+}
