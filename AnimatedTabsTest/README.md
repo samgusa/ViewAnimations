@@ -1,5 +1,5 @@
 ## AnimatedTabsTest
-<img height="600" src="https://github.com/samgusa/FunAnimations/assets/45985527/ad3c4094-32f6-4bad-9692-68c6b75cfbee">
+<img src="AnimatedTabsTest.gif" alt="" width="300" height="600">
 
 credit: [Kavsoft](https://www.youtube.com/watch?v=NBPBe7MmPJ0)
 
