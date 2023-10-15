@@ -1,5 +1,10 @@
 # ViewAnimations
 
+# [AnimatedTabsTest](https://github.com/samgusa/ViewAnimations/tree/main/AnimatedTabsTest)
+<img src="AnimatedTabsTest.gif" alt="" width="100" height="200">
+
+credit: [Kavsoft](https://www.youtube.com/watch?v=NBPBe7MmPJ0)
+
 # [AnimatedTagsTest](https://github.com/samgusa/ViewAnimations/tree/main/AnimatedTagsTest)
 
 <img src="AnimatedTagsTest/AnimatedTagsTest.gif" alt="" width="100" height="200">
