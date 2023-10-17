@@ -1,4 +1,4 @@
-# ViewAnimations
+## ViewAnimations
 
 # [AnimatedTabsTest](https://github.com/samgusa/ViewAnimations/tree/main/AnimatedTabsTest)
 <img src="AnimatedTabsTest/AnimatedTabsTest.gif" alt="" width="100" height="200">
